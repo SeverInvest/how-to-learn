@@ -63,7 +63,7 @@
 }
 
 .header__main-illustration {
-  object-fit: contain;
+  object-fit: fill;
   width: 765px;
   height: 608px;
   position: absolute;
@@ -138,7 +138,7 @@
   font-size: 60px;
   font-weight: 600;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .section-subtitle {
@@ -180,6 +180,7 @@
 }
 
 .feynman {
+  padding-top: 100px;
   position: relative;
   min-height: 890px;
   background-image: url(../images/feynman.png);
@@ -190,7 +191,7 @@
 }
 
 .feynman__title {
-  margin: 100px auto 0;
+  margin: 0 auto;
   text-align: center;
   max-width: 648px;
   line-height: 1.15;
